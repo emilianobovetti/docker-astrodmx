@@ -29,7 +29,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN useradd astrodmx --home-dir /home/astrodmx --create-home
 
-RUN wget -O /home/astrodmx/install.deb https://www.astrodmx-capture.org.uk/sites/downloads/astrodmx/current/x86-64/astrodmx-glibc-2.30_0.88.2_amd64.deb
+RUN wget -O /home/astrodmx/install.deb https://www.astrodmx-capture.org.uk/sites/downloads/astrodmx/current/x86-64/astrodmx-capture_1.0.5_amd64.deb
 
 COPY entrypoint.sh /usr/local/bin/
 

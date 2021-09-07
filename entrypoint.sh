@@ -15,7 +15,7 @@ if [ ! -f /usr/local/AstroDMx_Capture ]; then
 fi
 
 if [ $# -eq 0 ];  then
-  sudo -u astrodmx /usr/local/AstroDMx_Capture/bin/AstroDMx-Launcher
+  sudo -u astrodmx /usr/local/AstroDMx_Capture/bin/AstroDMx-Capture
 else
   "$@"
 fi
